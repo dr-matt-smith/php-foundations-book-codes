@@ -1,11 +1,7 @@
 <?php
 class WebApplication
 {
-    /**
-     * @var MainController
-     */
     private $mainController;
-
 
     public function __construct()
     {
@@ -24,9 +20,6 @@ class WebApplication
             case 'index':
             default:
                 $this->mainController->indexAction();
-
-
         }
     }
-
 }

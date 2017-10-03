@@ -3,7 +3,12 @@ class WebApplication
 {
     public function run()
     {
-        print 'web application is running !';
+        $this->indexAction();
+    }
 
+    private function indexAction()
+    {
+        $pageTitle = 'home';
+        include __DIR__ . '/../views/home.php';
     }
 }

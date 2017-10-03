@@ -12,5 +12,4 @@ class MainController
         $pageTitle = 'jokes';
         include __DIR__ . '/../views/jokes.php';
     }
-
 }

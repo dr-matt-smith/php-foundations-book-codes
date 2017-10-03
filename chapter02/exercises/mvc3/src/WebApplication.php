@@ -1,32 +1,19 @@
 <?php
 class WebApplication
 {
-    /**
-     * @var MainController
-     */
-    private $mainController;
-
-
-    public function __construct()
-    {
-        $this->mainController = new MainController();
-    }
-
     public function run()
     {
         $action = filter_input(INPUT_GET, 'action');
 
+        $mainController = new MainController();
         switch($action){
             case 'jokes':
-                $this->mainController->jokesAction();
+                $mainController->jokesAction();
                 break;
 
             case 'index':
             default:
-                $this->mainController->indexAction();
-
-
+                $mainController->indexAction();
         }
     }
-
 }

@@ -1,0 +1,18 @@
+{
+  "scripts":{
+    "run":"php -S localhost:8000 -t ./web",
+    "testlong":"php codecept.phar run --steps",
+    "testshort":"php codecept.phar run",
+    "test":"php codecept.phar run --ext DotReporter"
+
+
+  },
+  "autoload":{
+    "psr-4":{
+      "Itb\\":"src"
+    }
+  },
+  "require": {
+    "twig/twig": "^2.4"
+  }
+}

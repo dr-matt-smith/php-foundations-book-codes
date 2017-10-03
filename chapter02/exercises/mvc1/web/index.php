@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: matt
- * Date: 18/09/2017
- * Time: 10:49
- */
+require_once __DIR__ . '/../src/WebApplication.php';
+
+$app = new WebApplication();
+$app->run();
+

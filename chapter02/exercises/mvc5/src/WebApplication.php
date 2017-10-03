@@ -1,4 +1,6 @@
 <?php
+namespace Itb;
+
 class WebApplication
 {
     private $mainController;
