@@ -2,5 +2,7 @@
 
 Find separate repositories for some chapers as follows:
 
-1. [Forms chapter](https://github.com/dr-matt-smith/php-foundations-book-codes-forms)
+- [OO MVC examples](https://github.com/dr-matt-smith/php-foundations-book-codes-oo-mvc)
+
+- [Forms chapter](https://github.com/dr-matt-smith/php-foundations-book-codes-forms)
 
