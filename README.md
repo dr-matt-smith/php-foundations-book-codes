@@ -10,3 +10,5 @@ Find separate repositories for some chapers as follows:
 
 - [Forms chapter](https://github.com/dr-matt-smith/php-foundations-book-codes-forms)
 
+- [Introduction to DB](https://github.com/dr-matt-smith/php-foundations-book-codes-db)
+
